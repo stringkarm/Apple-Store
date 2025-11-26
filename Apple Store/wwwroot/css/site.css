@@ -20,3 +20,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar-logo {
+    height: 40px;
+    width: auto;
+    margin-right: 15px;
+}
