@@ -26,3 +26,9 @@ body {
     width: auto;
     margin-right: 15px;
 }
+
+.nav-item{
+    font-size: 13px;
+    line-padding:20px;
+}
+

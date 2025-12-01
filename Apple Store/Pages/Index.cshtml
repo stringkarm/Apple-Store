@@ -7,13 +7,43 @@
 <style>
 .first-section-background {
     background-image: url('css/images/background.png'); 
-    min-height: 400px; 
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat; 
-    padding-top: 50px; 
-    padding-bottom: 50px;
-}
+   }
+    .product-nav-container {
+        padding: 15px 0;
+        width: 100%;
+    }
+
+    .product-list {  
+        display: flex;
+        justify-content: space-around;
+        list-style: none; 
+        margin: 0;
+        padding: 0;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product-link {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .product-image {
+        height: 60px; 
+        width: auto;
+        margin-bottom: 5px; 
+    }
+
+    .product-name {
+        font-size: 12px;
+    }
 </style>
 
 <div class="first-section-background">
@@ -21,4 +51,36 @@
         <h1 class="display-4 text-black">Welcome to Apple Store</h1>
         <p class="text-black-50">Learn about our amazing products.</p>
     </div>
+</div>
+
+<div class="product-nav-container">
+    <ul class="product-list">
+        <li class="product-item">
+            <a href="#" class="product-link">
+                <img src="css/images/mac.png" alt="Mac" class="product-image">
+                <span class="product-name">Mac</span>
+            </a>
+        </li>
+
+        <li class="product-item">
+            <a href="#" class="product-link">
+                <img src="css/images/iphone.png" alt="iPhone" class="product-image">
+                <span class="product-name">iPhone</span>
+            </a>
+        </li>
+
+        <li class="product-item">
+            <a href="#" class="product-link">
+                <img src="css/images/ipad.png" alt="iPhone" class="product-image">
+                <span class="product-name">iPad</span>
+            </a>
+        </li>
+
+        <li class="product-item">
+            <a href="#" class="product-link">
+                <img src="css/images/iwatch.png" alt="iPhone" class="product-image">
+                <span class="product-name">Watch</span>
+            </a>
+        </li>
+    </ul>
 </div>
