@@ -201,17 +201,16 @@ body {
 
 
 .main-footer {
-    background-color: #f5f5f7; 
-    color: #6e6e73;
+    margin-top:50px;
     font-size: 0.8rem;
     padding: 25px 0 10px 0;
 }
 
-.footer-content-wrap {
+/*.footer-content-wrap {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
-}
+}*/
 
 
 .footer-legal-text {
@@ -319,4 +318,4 @@ body {
         border-left: none;
         padding-left: 0;
     }
-}}
+}
