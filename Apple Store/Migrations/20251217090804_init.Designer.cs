@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Apple_Store.Migrations
 {
     [DbContext(typeof(Apple_StoreContext))]
-    [Migration("20251215094916_init")]
+    [Migration("20251217090804_init")]
     partial class init
     {
         /// <inheritdoc />
